@@ -25,7 +25,8 @@
           "photosPermission": "TGICC needs access to your photos so you can attach a photo.",
           "cameraPermission": "TGICC needs the camera so you can take a photo."
         }
-      ]
+      ],
+      "expo-font"
     ],
     "extra": {
       "eas": {
