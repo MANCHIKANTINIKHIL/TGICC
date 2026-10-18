@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TGICC",
+    "slug": "tgicc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.tgicc.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1F3A5F"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "TGICC needs access to your photos so you can attach a photo.",
+          "cameraPermission": "TGICC needs the camera so you can take a photo."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "342f0661-3b87-4251-843d-9d0077ffd28e"
+      }
+    }
+  }
+}
